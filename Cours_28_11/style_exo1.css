@@ -1,0 +1,36 @@
+h1 {
+    color:red;
+    text-align: center;
+    font-size: 50px;
+}
+
+h3 {
+    color: blue;
+    font-size: 25px;
+}
+
+.fond_gris {
+    background-color: grey;
+}
+
+#sous-titre2 {
+    color: green;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.fond_rose {
+    background: pink right;
+}
+
+strong {
+    color: yellowgreen;
+    font-style: normal;
+}
+
+em {
+    color: orange;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: underline; 
+}
