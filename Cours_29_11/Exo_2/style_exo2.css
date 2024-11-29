@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Meow+Script&display=swap');
+
+table {
+    border-collapse: collapse;
+    border: solid black 2px
+}
+
+caption {
+    font-family: 'Delius Unicase';
+    margin: 20px;
+    text-align: center;
+}
+
+td {
+    border: solid 2px black;
+    text-align: center;
+    font-family: 'Meow Script';
+    text-align: center;
+    padding: 20px;
+    
+}
+
+th {
+    border: solid 2px black;
+    text-align: center;
+    font-family: 'Meow Script';
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+thead {
+    color:crimson;
+}

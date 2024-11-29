@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Permanent+Marker&display=swap');
+
+::placeholder {
+    color:brown;
+    font-style: italic;
+    font-family: 'Inconsolata';
+}
+
+input, textarea {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Inconsolata';
+    border-radius:8px;
+}
+
+legend {
+    font-family: 'Permanent Marker';
+}
+
+label {
+    font-weight: bolder;
+    font-family: 'Inconsolata';
+}
+
+input:checked + label {
+    color: brown;
+}

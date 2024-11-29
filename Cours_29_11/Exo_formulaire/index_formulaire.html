@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8"/>
+        <title>Exo formulaire</title>
+        <link href="style_formulaire.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Permanent+Marker&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <form method="POST">
+            <fieldset>
+                <legend>Info personnelles</legend>
+            <label for="prenom">Prénom</label>
+            <br/>
+            <input type="text" name="prenom" placeholder="Ex: Jacques" maxlength="20" minlength="2" id="prenom"/>
+
+            <br/>
+
+            <label for="nom">Nom</label>
+            <br/>
+            <input type="text" name="nom" placeholder="Ex: Dubois" maxlength="20" minlength="2" id="nom"/>
+
+            <br/> 
+
+            <label for="e-mail">E-mail</label>
+            <br/>
+            <input type="email" name="e-mail" placeholder="Ex: monMail@FAI.com" id="e-mail" required/>
+
+            <br/>
+
+            <label for="numero">Numéro</label>
+            <br/>
+            <input type="numero" name="numero" placeholder="Ex: 00.11.22.33.44" id="numero"/>
+
+            <br/>
+
+            <label for="passWord">Mot de passe</label>
+            <br/>
+            <input type="password" name="passWord" maxlength="30" minlength="8" placeholder="Ex: Pjgsd@28" id="passWord" required/>
+
+            <br/>
+
+            <label for="age">Age</label>
+            <br/>
+            <input type="text" name="age" placeholder="Ex: 18" id="age"/>
+
+            <br/>
+
+            <label for="commentaire">Laisser un commentaire</label>
+            <br/>
+            <textarea name="commentaire" placeholder="J'adore ce que vous faites !" rows="10" cols="70" id="commentaire"></textarea>
+
+            <br/>
+
+            <label for="date">Date de mon commentaire</label>
+            <br/>
+            <input type="date" name="calendrier" min="01/01/2024" max="31/12/204"/>
+
+            <br/>
+
+            <label for="photo">Ma photo</label>
+                    <input type="file" name="photo" accept="image/png, image/jpeg" id="photo">
+
+            </fieldset>
+            <fieldset>
+               <legend>Vous préférez</legend>
+                    <input type="checkbox"  name="my-input" id="html" checked />
+                    <label for="html">Le HTML</label>
+                    <br/>
+                    <input type="checkbox"  name="my-input" id="css"/>
+                    <label for="css">Le CSS</label>
+                    <br/>
+                    <input type="checkbox"  name="my-input" id="javascript"/>
+                    <label for="javascript">Le JavaScript 😱</label>
+                    <br/>
+                    <input type="checkbox"  name="my-input" id="rienFaire"/>
+                    <label for="rienFaire">Ne rien faire</label>
+            </fieldset>
+            <fieldset>
+                <legend>Vous vous levez</legend>
+                     <input type="radio"  name="my-input" id="matin" checked />
+                     <label for="matin">Le matin</label>
+                     <br/>
+                     <input type="radio"  name="my-input" id="midi"/>
+                     <label for="midi">Le midi</label>
+                     <br/>
+                     <input type="radio"  name="my-input" id="soir"/>
+                     <label for="soir">Le soir</label>
+                     <br/>
+                     <input type="radio"  name="my-input" id="retard"/>
+                     <label for="retard">En retard !</label>
+             </fieldset>
+             <fieldset>
+                <legend>Fin de formulaire</legend>
+                    <label for="liste">Vous en avez assez ?</label>
+                    <select name="liste" id="liste">
+                        <optgroup label="Team pas encore"> 
+                            <option value="option1">J'en veux plus !</option>
+                            <option value="option2" selected>C'est super !</option>
+                        </optgroup>
+                        <optgroup label="Team Oula"> 
+                            <option value="option1">J'en ai marre !</option>
+                            <option value="option2">Pitié !</option>
+                        </optgroup>
+                    </select>
+                    <br/>
+                    <label for="note">Une note sur 10 pour ce formulaire ?</label>
+                    <br/>
+                    <input type="range" min="0" max="10" value="0" step="0.1"/>
+                    <br/>
+                    <input type="submit" value="Envoyer"/>
+                    <input type="submit" value="Reset"/>
+             </fieldset>
+        </form>
+    </body>
+</html>

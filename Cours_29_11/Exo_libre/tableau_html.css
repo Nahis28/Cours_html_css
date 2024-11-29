@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Special+Elite&display=swap');
+
+body {
+    background-image: url(image_html.jpg);
+    background-size: 1920px 1200px;
+    background-position: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: solid black 2px;
+    align-items: center;
+}
+
+caption {
+    font-family: 'Delius Unicase';
+    margin-top: 180px;
+    text-align: center;
+    font-family: 'Special Elite';
+    font-size: 50px;
+    color: wheat;
+}
+
+th, td {
+    border: solid 2px black;
+    text-align: center;
+    padding: 20px;
+}
+
+th {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Special Elite';
+}
+
+td {
+    font-family: 'Inconsolata';
+    
+}
+
+thead {
+    color:crimson
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Fredoka:wght@300..700&display=swap');
+
+caption 
+{
+    font-family: 'Barriecito';
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: darkslateblue;
+    text-decoration: underline;
+    
+}
+
+table 
+{
+    border-collapse: collapse;
+}
+
+th, td
+{
+    font-family: 'fredoka';
+    font-size: 30px;
+    border: solid 5px;
+    background-color: aqua;
+    text-align: center;  
+}
